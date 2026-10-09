@@ -1,6 +1,6 @@
 cask "hotplate" do
-  version "1.1.0"
-  sha256 "315c355de6417c4c2373d29bcffc9c739699cd79115469b58032d8a88382a43c"
+  version "1.1.1"
+  sha256 "4972f96326ee74f083f9753162bcf7773dd5cbb8823ad3a27bac9d91ba495071"
 
   url "https://github.com/hrvojeBencik/hotplate/releases/download/v#{version}/Hotplate-#{version}.dmg"
   name "Hotplate"
