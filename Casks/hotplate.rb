@@ -17,7 +17,5 @@ cask "hotplate" do
   app "Hotplate.app"
   binary "#{appdir}/Hotplate.app/Contents/Helpers/hotplate"
 
-  zap trash: [
-    "~/Library/Preferences/com.hrvojebencik.hotplate.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.hrvojebencik.hotplate.plist"
 end
